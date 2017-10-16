@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.raga.validasi2.MainActivity">
+    <TextView
+        android:id="@+id/biodata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="my biodata"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:id="@+id/btnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nama lengkap"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tanggallahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tanggal lahir"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="alamat"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/telpon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="telpon"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/jurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jurusan"
+        android:textSize="20sp"/>
+
+</LinearLayout>
